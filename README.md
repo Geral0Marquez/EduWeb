@@ -1,19 +1,19 @@
 <div align="center">
   
-  ![GitHub repo size](https://img.shields.io/github/repo-size/codewithsadee/taskbuddy)
-  ![GitHub stars](https://img.shields.io/github/stars/codewithsadee/taskbuddy?style=social)
-  ![GitHub forks](https://img.shields.io/github/forks/codewithsadee/taskbuddy?style=social)
+  ![GitHub repo size](https://img.shields.io/github/repo-size/codewithsadee/eduweb)
+  ![GitHub stars](https://img.shields.io/github/stars/codewithsadee/eduweb?style=social)
+  ![GitHub forks](https://img.shields.io/github/forks/codewithsadee/eduweb?style=social)
   [![Twitter Follow](https://img.shields.io/twitter/follow/codewithsadee?style=social)](https://twitter.com/intent/follow?screen_name=codewithsadee)
-  [![YouTube Video Views](https://img.shields.io/youtube/views/BWmL66b9bOo?style=social)](https://youtu.be/BWmL66b9bOo)
+  [![YouTube Video Views](https://img.shields.io/youtube/views/x26bQPxcFX4?style=social)](https://youtu.be/x26bQPxcFX4)
 
   <br />
   <br />
 
-  <h2 align="center">Taskbuddy - Todo app</h2>
+  <h2 align="center">eduweb - Education Website</h2>
 
-  Taskbuddy is a fully responsive todo app, <br />Responsive for all devices, build using HTML, CSS, and JavaScript.
+  EduWeb is a fully responsive education website, <br />Responsive for all devices, build using HTML, CSS, and JavaScript.
 
-  <a href="https://codewithsadee.github.io/taskbuddy/"><strong>➥ Live Demo</strong></a>
+  <a href="https://codewithsadee.github.io/eduweb/"><strong>➥ Live Demo</strong></a>
 
 </div>
 
@@ -21,7 +21,7 @@
 
 ### Demo Screeshots
 
-![Taskbuddy Desktop Demo](./readme-images/desktop.png "Desktop Demo")
+![EduWeb Desktop Demo](./readme-images/desktop.png "Desktop Demo")
 
 ### Prerequisites
 
@@ -31,18 +31,18 @@ Before you begin, ensure you have met the following requirements:
 
 ### Run Locally
 
-To run **Taskbuddy** locally, run this command on your git bash:
+To run **EduWeb** locally, run this command on your git bash:
 
 Linux and macOS:
 
 ```bash
-sudo git clone https://github.com/codewithsadee/taskbuddy.git
+sudo git clone https://github.com/codewithsadee/eduweb.git
 ```
 
 Windows:
 
 ```bash
-git clone https://github.com/codewithsadee/taskbuddy.git
+git clone https://github.com/codewithsadee/eduweb.git
 ```
 
 ### Contact

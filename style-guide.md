@@ -7,7 +7,9 @@ Google font
 ``` html
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+<link
+  href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;600;700;800&family=Poppins:wght@400;500&display=swap"
+  rel="stylesheet">
 ```
 
 Ionicon
@@ -22,68 +24,78 @@ Ionicon
 ## Colors
 
 ``` css
---granite-gray: hsl(210, 1%, 37%);
---eerie-black: hsl(240, 2%, 11%);
---slimy-green: hsl(91, 100%, 30%);
---fuzzy-wuzzy: hsl(0, 42%, 57%);
---davys-gray: hsl(220, 2%, 28%);
---cultured-1: hsl(228, 17%, 94%);
---cultured-2: hsl(0, 0%, 96%);
---dim-gray: hsl(240, 1%, 41%);
---white_80: hsla(0, 0%, 100%, 0.8);
---white_70: hsla(0, 0%, 100%, 0.7);
---white_40: hsla(0, 0%, 100%, 0.4);
---white_10: hsla(0, 0%, 100%, 0.1);
---black_05: hsla(0, 0%, 0%, 0.05);
+--selective-yellow: hsl(42, 94%, 55%);
+--eerie-black-1: hsl(0, 0%, 9%);
+--eerie-black-2: hsl(180, 3%, 7%);
+--quick-silver: hsl(0, 0%, 65%);
+--radical-red: hsl(351, 83%, 61%);
+--light-gray: hsl(0, 0%, 80%);
+--isabelline: hsl(36, 33%, 94%);
+--gray-x-11: hsl(0, 0%, 73%);
+--kappel_15: hsla(170, 75%, 41%, 0.15);
+--platinum: hsl(0, 0%, 90%);
+--gray-web: hsl(0, 0%, 50%);
+--black_80: hsla(0, 0%, 0%, 0.8);
+--white_50: hsla(0, 0%, 100%, 0.5);
 --black_50: hsla(0, 0%, 0%, 0.5);
---black_25: hsla(0, 0%, 0%, 0.25);
---white-2: hsl(0, 0%, 98%);
---white-1: hsl(0, 0%, 100%);
---black: hsl(0, 0%, 0%);
+--black_30: hsla(0, 0%, 0%, 0.3);
+--kappel: hsl(170, 75%, 41%);
+--white: hsl(0, 0%, 100%);
 ```
 
-## Theme colors
+## Gradient color
 
 ``` css
---hue: 227;
---theme-bg: linear-gradient(to bottom, 
-              hsl(var(--hue, 227), 40%, 50%), 
-              hsl(var(--hue, 227), 40%, 60%));
---theme-color: hsl(var(--hue, 227), 42%, 57%);
+--gradient: linear-gradient(-90deg,hsl(151, 58%, 46%) 0%,hsl(170, 75%, 41%) 100%);
 ```
 
 ## Typography
 
 ``` css
---ff-roboto: "Roboto", sans-serif;
+--ff-league_spartan: 'League Spartan', sans-serif;
+--ff-poppins: 'Poppins', sans-serif; 
 
---fs-1: 2.6rem;
---fs-2: 2.2rem;
---fs-3: 1.8rem;
---fs-4: 1.4rem;
---fs-5: 1.2rem;
+--fs-1: 4.2rem;
+--fs-2: 3.2rem;
+--fs-3: 2.3rem;
+--fs-4: 1.8rem;
+--fs-5: 1.5rem;
+--fs-6: 1.4rem;
+--fs-7: 1.3rem;
 
 --fw-500: 500;
+--fw-600: 600;
 ```
 
-## Radius
+## Spacing
 
 ``` css
---radius-4: 4px;
---radius-5: 5px;
---radius-10: 10px;
+--section-padding: 75px;
 ```
 
 ## Shadow
 
 ``` css
---shadow-1: 0 0 5px hsla(0, 0%, 0%, 0.05);
---shadow-2: 0 0 10px hsla(0, 0%, 0%, 0.05);
+--shadow-1: 0 6px 15px 0 hsla(0, 0%, 0%, 0.05);
+--shadow-2: 0 10px 30px hsla(0, 0%, 0%, 0.06);
+--shadow-3: 0 10px 50px 0 hsla(220, 53%, 22%, 0.1);
+```
+
+## Border Radius
+
+``` css
+--radius-pill: 500px;
+--radius-circle: 50%;
+--radius-3: 3px;
+--radius-5: 5px;
+--radius-10: 10px;
 ```
 
 ## Transition
 
 ``` css
---transition: 0.15s ease;
---cubic-out: cubic-bezier(0.05, 0.65, 0.25, 1);
+--transition-1: 0.25s ease;
+--transition-2: 0.5s ease;
+--cubic-in: cubic-bezier(0.51, 0.03, 0.64, 0.28);
+--cubic-out: cubic-bezier(0.33, 0.85, 0.4, 0.96);
 ```
